@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{B9EF740E-A568-4252-AD8A-FA6017FCA5D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualCashCard.Application", "VirtualCashCard.Application\VirtualCashCard.Application.csproj", "{FC8BC930-0883-4BB9-99D4-234CE0C79901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualCashCard.Service", "VirtualCashCard.Service\VirtualCashCard.Service.csproj", "{15777369-6F90-454A-9C3D-B84C23C4031D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualCashCard.Service.Tests", "VirtualCashCard.Service.Tests\VirtualCashCard.Service.Tests.csproj", "{F8FE721B-44FF-491C-940A-5F42E87E0E28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC8BC930-0883-4BB9-99D4-234CE0C79901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8BC930-0883-4BB9-99D4-234CE0C79901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8BC930-0883-4BB9-99D4-234CE0C79901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8BC930-0883-4BB9-99D4-234CE0C79901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15777369-6F90-454A-9C3D-B84C23C4031D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15777369-6F90-454A-9C3D-B84C23C4031D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15777369-6F90-454A-9C3D-B84C23C4031D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15777369-6F90-454A-9C3D-B84C23C4031D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FE721B-44FF-491C-940A-5F42E87E0E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FE721B-44FF-491C-940A-5F42E87E0E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FE721B-44FF-491C-940A-5F42E87E0E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FE721B-44FF-491C-940A-5F42E87E0E28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8FE721B-44FF-491C-940A-5F42E87E0E28} = {B9EF740E-A568-4252-AD8A-FA6017FCA5D9}
+	EndGlobalSection
+EndGlobal
